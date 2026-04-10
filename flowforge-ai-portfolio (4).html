@@ -916,6 +916,11 @@ section { padding: 100px 5%; position: relative; }
   box-shadow: 0 0 0 4px rgba(109,92,255,0.1);
   transition: box-shadow 0.3s, background 0.3s;
 }
+.step-circle svg {
+  width: 30px;
+  height: 30px;
+  color: var(--purple);
+}
 .workflow-step:hover .step-circle {
   background: var(--purple);
   box-shadow: 0 0 0 8px rgba(109,92,255,0.15);
@@ -1422,39 +1427,89 @@ footer span { color: var(--accent); }
       <h3 style="font-family:var(--serif);font-size:1.1rem;margin-bottom:1.25rem;">How It Works</h3>
       <div class="workflow-steps">
         <div class="workflow-step">
-          <div class="step-circle">�</div>
-          <div class="step-name">SERPAPI</div>
-          <div class="step-sub">Keyword Research</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M14 34h20l6-14-14-8-12 6-4 12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M16 20l8-4 4 4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">SCRAPY</div>
+          <div class="step-sub">Website Scraping</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">A</div>
-          <div class="step-name">AHREFS</div>
-          <div class="step-sub">Gap Analysis</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle cx="18" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="30" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M22 22l6 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 13v-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M30 35v5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">WEBHOOK</div>
+          <div class="step-sub">Data Processing</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">🤖</div>
-          <div class="step-name">OPENAI</div>
-          <div class="step-sub">Content Gen</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="8" y="12" width="32" height="24" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M14 18h20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 26h12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">WEB TECH AUDIT</div>
+          <div class="step-sub">On Page SEO</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">🔗</div>
-          <div class="step-name">LANGCHAIN</div>
-          <div class="step-sub">RAG Pipeline</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="12" y="12" width="24" height="24" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M24 14v-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M24 38v4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M14 24h-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M38 24h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">AI AGENT</div>
+          <div class="step-sub">Gap Analysis & Fix</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">⚡</div>
-          <div class="step-name">N8N</div>
-          <div class="step-sub">Orchestration</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M12 34l8-12 8 8 8-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 28h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M32 16h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">DATAFORSEO</div>
+          <div class="step-sub">Off Page SEO & Keyword Research</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">🌐</div>
-          <div class="step-name">CMS</div>
-          <div class="step-sub">Auto-Publish</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M16 34h16v-20h-12l-4 4v16z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M20 18h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M20 24h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">CONTENT GENERATION</div>
+          <div class="step-sub">TOFU MOFU BOFU</div>
         </div>
         <div class="workflow-step">
-          <div class="step-circle">📈</div>
-          <div class="step-name">GSC</div>
-          <div class="step-sub">Rank Tracking</div>
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="6" y="12" width="18" height="18" rx="5" fill="#FF3737"/>
+              <path d="M15 21c1.5 0 2.5-1 2.5-2.5S16.5 16 15 16s-2.5 1-2.5 2.5S13.5 21 15 21Z" fill="#FFF"/>
+              <rect x="18" y="18" width="18" height="18" rx="5" fill="#1DA1F2" transform="rotate(-10 27 27)"/>
+              <path d="M23 24c1.5 0 2.5-1 2.5-2.5S24.5 19 23 19s-2.5 1-2.5 2.5S21.5 24 23 24Z" fill="#FFF"/>
+              <rect x="12" y="24" width="18" height="18" rx="5" fill="#3B5998" transform="rotate(8 21 33)"/>
+              <path d="M22 28h4v8h-4z" fill="#FFF"/>
+              <path d="M20 30h8v2h-8z" fill="#FFF"/>
+            </svg>
+          </div>
+          <div class="step-name">SOCIAL REACH</div>
+          <div class="step-sub">Posting content on Social Platforms</div>
         </div>
       </div>
 
@@ -1463,29 +1518,43 @@ footer span { color: var(--accent); }
         <div class="rf-feature">
           <div class="feature-check">🎯</div>
           <div class="feature-text">
-            <h4>Keyword Intent Mapping</h4>
-            <p>Identifies high-opportunity, low-competition keywords using SerpAPI and GPT-4 analysis to maximize ranking potential.</p>
+            <h4>Autonomous web intelligence</h4>
+            <p>
+Scrapy crawls your entire website end-to-end with zero manual input, capturing every page's structure, content, and metadata — then pipes it all automatically into n8n and Airtable as a living knowledge base.
+</p>
           </div>
         </div>
         <div class="rf-feature">
           <div class="feature-check">🤖</div>
           <div class="feature-text">
-            <h4>AI Content Generation</h4>
-            <p>Produces structured, NLP-optimized articles with headings, meta descriptions, and internal linking — ready to publish.</p>
+            <h4>Technical SEO on autopilot
+</h4>
+            <p>Lighthouse runs on every URL producing real scores, then 20+ on-page rules fire simultaneously. The AI doesn't just flag problems — it generates ready-to-use replacements (rewritten titles, alt text, content briefs) via Gemini and alerts your team on Slack instantly.</p>
           </div>
         </div>
         <div class="rf-feature">
           <div class="feature-check">📊</div>
           <div class="feature-text">
-            <h4>Ranking Tracker Dashboard</h4>
-            <p>Live monitoring of keyword positions, traffic trends, and content performance across all published articles.</p>
+            <h4>Brand-aware content engine
+</h4>
+            <p>The system reads your own site to learn your voice, services, competitors, and audience before writing a single word — so every piece of content is contextually grounded, not generic.</p>
           </div>
         </div>
         <div class="rf-feature">
           <div class="feature-check">⚡</div>
           <div class="feature-text">
-            <h4>CMS Auto-Publish</h4>
-            <p>Seamless integration with WordPress, Webflow, and custom CMS — zero manual upload required.</p>
+            <h4>Full multimedia social publishing
+</h4>
+            <p>Goes beyond copywriting: Flux 1.1 generates on-brand images, Kling 1.6 produces short-form video, and a scheduling engine posts everything at peak audience times across all 5 platforms automatically.</p>
+          </div>
+        </div>
+        <div class="rf-feature">
+          <div class="feature-check">⚡</div>
+          <div class="feature-text">
+            <h4>Keyword research to live page, end-to-end
+</h4>
+            <p>
+From AI keyword extraction → Google Trends validation → optimised metadata → full page written with LSI keywords → internal links injected → published to your CMS via REST API. No human in the loop required.</p>
           </div>
         </div>
       </div>
@@ -1552,19 +1621,124 @@ footer span { color: var(--accent); }
       <div class="section-label">CommerceForge AI</div>
       <h2 class="section-title">Scale your store<br/><em>without scaling</em><br/>your team.</h2>
       <p class="section-subtitle">AI-powered e-commerce intelligence that automates catalog management, pricing optimization, and product content generation — so you focus on growth, not operations.</p>
-      <div style="display:flex;flex-direction:column;gap:0.75rem;margin-bottom:2rem;">
+      <h3 style="font-family:var(--serif);font-size:1.1rem;margin-bottom:1.25rem;margin-top:2rem;">How It Works</h3>
+      <div class="workflow-steps">
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M14 34h20l6-14-14-8-12 6-4 12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M16 20l8-4 4 4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">PRODUCT CATALOG</div>
+          <div class="step-sub">Fetch Data</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle cx="18" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="30" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M22 22l6 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 13v-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M30 35v5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">CONTENT GENERATION</div>
+          <div class="step-sub">Blog Generation</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="8" y="12" width="32" height="24" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M14 18h20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 26h12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">SHOPIFY MANAGER</div>
+          <div class="step-sub">Chatbot</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="12" y="12" width="24" height="24" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M24 14v-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M24 38v4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M14 24h-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M38 24h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">LOCALIZATION</div>
+          <div class="step-sub">Product Translation</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M12 34l8-12 8 8 8-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 28h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M32 16h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">ORDER AUTOMATION
+</div>
+          <div class="step-sub">Real Time Updates</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M16 34h16v-20h-12l-4 4v16z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M20 18h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M20 24h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">QUERY RESOLUTION</div>
+          <div class="step-sub">Handle Customer Queries</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="6" y="12" width="18" height="18" rx="5" fill="#FF3737"/>
+              <path d="M15 21c1.5 0 2.5-1 2.5-2.5S16.5 16 15 16s-2.5 1-2.5 2.5S13.5 21 15 21Z" fill="#FFF"/>
+              <rect x="18" y="18" width="18" height="18" rx="5" fill="#1DA1F2" transform="rotate(-10 27 27)"/>
+              <path d="M23 24c1.5 0 2.5-1 2.5-2.5S24.5 19 23 19s-2.5 1-2.5 2.5S21.5 24 23 24Z" fill="#FFF"/>
+              <rect x="12" y="24" width="18" height="18" rx="5" fill="#3B5998" transform="rotate(8 21 33)"/>
+              <path d="M22 28h4v8h-4z" fill="#FFF"/>
+              <path d="M20 30h8v2h-8z" fill="#FFF"/>
+            </svg>
+          </div>
+          <div class="step-name">SEO</div>
+          <div class="step-sub">On Page SEO</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0.75rem;margin-bottom:2rem;margin-top:2rem;">
         <div class="rf-feature">
           <div class="feature-check">🏷️</div>
-          <div class="feature-text"><h4>Automated Product Descriptions</h4><p>Generate conversion-optimized listings for thousands of SKUs in minutes using AI.</p></div>
+          <div class="feature-text"><h4> Product Catalog Intelligence
+</h4><p>A Schedule Trigger pulls all Shopify products → an AI Agent (Gemini) analyzes them → enriches titles, descriptions, and metadata → pushes updates back to Shopify automatically.</p></div>
         </div>
         <div class="rf-feature">
           <div class="feature-check">💰</div>
-          <div class="feature-text"><h4>Dynamic Pricing Engine</h4><p>Real-time competitor price monitoring with automated repricing rules and margin protection.</p></div>
+          <div class="feature-text"><h4>Telegram / Form-Based Shopify Manager
+</h4><p>A Telegram Trigger and Form Triggers let you chat with the Shopify Manager AI Agent (OpenAI), which has 10+ Shopify tools attached — get/create/update/delete products, manage orders, adjust inventory, fetch variants — all via natural language.</p></div>
         </div>
         <div class="rf-feature">
           <div class="feature-check">📦</div>
-          <div class="feature-text"><h4>Catalog Intelligence</h4><p>Auto-categorize, tag, and enrich your product catalog with AI — no spreadsheet wrangling.</p></div>
+          <div class="feature-text"><h4>Order Lifecycle Automation
+</h4><p>A Shopify Order Trigger watches every order state change (paid → fulfilled → dispatched) → sends WhatsApp notifications to customers, SMS via Twilio, and Gmail confirmations. Cancelled orders trigger a separate WhatsApp + Airtable update flow.</p></div>
         </div>
+        <div class="rf-feature">
+          <div class="feature-check">📦</div>
+          <div class="feature-text"><h4> Product Translation & SEO Optimization
+
+</h4><p>
+Fetches product translatable content via Shopify GraphQL → AI Agent translates and localizes → registers translations back. Separately, a Market Pricing Agent analyzes competitor pricing and suggests updates. Also calls an external SEO Workflow for meta title/description/OG image updates.</p></div>
+        </div>
+        <div class="rf-feature">
+          <div class="feature-check">📦</div>
+          <div class="feature-text"><h4>Customer Query Resolution
+</h4><p>A Form Trigger accepts customer queries → Edit Fields routes them → AI Agent5/6 resolve the query with structured output → sends resolution via Gmail, WhatsApp, or Telegram depending on the channel.</p></div>
+        </div>
+        
       </div>
       <a href="#contact" class="btn-primary">Request Demo →</a>
     </div>
@@ -1613,7 +1787,95 @@ footer span { color: var(--accent); }
       <div class="section-label">SocialForge AI</div>
       <h2 class="section-title">Your content engine.<br/><em>Running 24/7.</em><br/>No team required.</h2>
       <p class="section-subtitle">AI-powered social content creation, smart scheduling, and engagement analytics across all platforms — built for brands that want to grow without burning out.</p>
-      <div style="display:flex;flex-direction:column;gap:0.75rem;margin-bottom:2rem;">
+      <h3 style="font-family:var(--serif);font-size:1.1rem;margin-bottom:1.25rem;margin-top:2rem;">How It Works</h3>
+      <div class="workflow-steps">
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M14 34h20l6-14-14-8-12 6-4 12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M16 20l8-4 4 4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">SCRAPY</div>
+          <div class="step-sub">Website Scraping</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle cx="18" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="30" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M22 22l6 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 13v-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M30 35v5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">WEBHOOK</div>
+          <div class="step-sub">Data Processing</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="8" y="12" width="32" height="24" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M14 18h20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 26h12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">WEB TECH AUDIT</div>
+          <div class="step-sub">On Page SEO</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="12" y="12" width="24" height="24" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
+              <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M24 14v-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M24 38v4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M14 24h-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M38 24h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">AI AGENT</div>
+          <div class="step-sub">Gap Analysis & Fix</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M12 34l8-12 8 8 8-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 28h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M32 16h4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">DATAFORSEO</div>
+          <div class="step-sub">Off Page SEO & Keyword Research</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M16 34h16v-20h-12l-4 4v16z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M20 18h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M20 24h8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-name">CONTENT GENERATION</div>
+          <div class="step-sub">TOFU MOFU BOFU</div>
+        </div>
+        <div class="workflow-step">
+          <div class="step-circle">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <rect x="6" y="12" width="18" height="18" rx="5" fill="#FF3737"/>
+              <path d="M15 21c1.5 0 2.5-1 2.5-2.5S16.5 16 15 16s-2.5 1-2.5 2.5S13.5 21 15 21Z" fill="#FFF"/>
+              <rect x="18" y="18" width="18" height="18" rx="5" fill="#1DA1F2" transform="rotate(-10 27 27)"/>
+              <path d="M23 24c1.5 0 2.5-1 2.5-2.5S24.5 19 23 19s-2.5 1-2.5 2.5S21.5 24 23 24Z" fill="#FFF"/>
+              <rect x="12" y="24" width="18" height="18" rx="5" fill="#3B5998" transform="rotate(8 21 33)"/>
+              <path d="M22 28h4v8h-4z" fill="#FFF"/>
+              <path d="M20 30h8v2h-8z" fill="#FFF"/>
+            </svg>
+          </div>
+          <div class="step-name">SOCIAL REACH</div>
+          <div class="step-sub">Posting content on Social Platforms</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0.75rem;margin-bottom:2rem;margin-top:2rem;">
         <div class="rf-feature">
           <div class="feature-check">✍️</div>
           <div class="feature-text"><h4>AI Content Calendar</h4><p>Generate a full month of on-brand social posts tailored to your voice, niche, and platform algorithm.</p></div>
